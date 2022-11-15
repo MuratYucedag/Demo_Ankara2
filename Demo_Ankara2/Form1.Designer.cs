@@ -173,6 +173,7 @@ namespace Demo_Ankara2
             this.btnUpdate.TabIndex = 13;
             this.btnUpdate.Text = "Müşteri Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnSearch
             // 
